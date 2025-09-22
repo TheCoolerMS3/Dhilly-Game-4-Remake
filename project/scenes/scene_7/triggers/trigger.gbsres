@@ -1,0 +1,49 @@
+{
+  "_resourceType": "trigger",
+  "id": "53acd5e0-b54d-464f-9fce-4e64f807d87f",
+  "name": "",
+  "prefabId": "",
+  "x": 116,
+  "y": 93,
+  "symbol": "trigger_0",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You have collected a\nDhilly piece!",
+          "Now seek the next\nlocation..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "2dcb56a7-d236-4d37-bd93-7e1daa4fd1b6"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "90ea9a2d-138e-4402-ae70-a7a61997b63c"
+      },
+      "id": "8744dcf5-f4bc-45d2-9923-9267b7c9f68b"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

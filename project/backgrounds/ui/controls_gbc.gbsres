@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "ac10b000-9536-424d-a30b-d9cd501a2a22",
+  "name": "ui/controls_gbc",
+  "symbol": "bg_ui_controls_gbc",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "ui/controls_gbc.png",
+  "tileColors": "0015+0112+002+0112+002+0112+002+0112+002+0112+002+0112+002+0112+002+0112+002+0112+002+0112+002+0112+002+0112+002+0112+002+0112+002+0112+002+0112+0015+",
+  "autoColor": false
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "e88aec42-7336-4763-9126-5a5c20349312",
+  "name": "ui/options",
+  "symbol": "bg_ui_options",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "ui/options.png",
+  "tileColors": "",
+  "autoColor": false
+}

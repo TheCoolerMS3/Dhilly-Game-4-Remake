@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "499bf879-f036-4db3-a1a8-daaafda5ccff",
+  "name": "ui/title",
+  "symbol": "bg_placeholder_copy",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "ui/title.png",
+  "tileColors": "0264+0716+026+07e+026+072+048+074+026+072+048+074+026+072+048+074+026+072+048+074+026+07e+026+07e+026+0720+023c+",
+  "autoColor": false
+}

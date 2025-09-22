@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "d9793fc9-11cf-4b96-90aa-38e385df0cda",
+  "name": "cave_complex/cavecomplexintro",
+  "symbol": "bg_ui_placeholder",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "cave_complex/cavecomplexintro.png",
+  "tileColors": "",
+  "autoColor": false
+}

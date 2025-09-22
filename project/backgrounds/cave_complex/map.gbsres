@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "aaeb5d24-5a10-4d26-9491-bdb7ef8a8f8a",
+  "name": "cave_complex/map",
+  "symbol": "bg_cave_complex_placeholder",
+  "width": 125,
+  "height": 125,
+  "imageWidth": 1000,
+  "imageHeight": 1000,
+  "filename": "cave_complex/map.png",
+  "tileColors": "003d09+",
+  "autoColor": false
+}

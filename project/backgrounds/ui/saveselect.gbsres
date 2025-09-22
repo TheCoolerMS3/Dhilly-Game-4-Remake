@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "d252d591-b720-48d9-941c-945f0ce97f94",
+  "name": "ui/saveselect",
+  "symbol": "bg_ui_saveselect",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "ui/saveselect.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "b5749fda-0a88-4702-ae52-be4c5f92e241",
+  "name": "ui/controls_mobile",
+  "symbol": "bg_ui_title_copy",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "ui/controls_mobile.png",
+  "tileColors": "003e+027+00d+027+00d+027+00d+027+00d+027+00d+027+00d+027+00d+027+00d+027+00d+027+00d+027+005b+",
+  "autoColor": false
+}
