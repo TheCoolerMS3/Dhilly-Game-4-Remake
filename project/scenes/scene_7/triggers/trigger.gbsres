@@ -14,8 +14,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "You have collected a\nDhilly piece!",
-          "Now seek the next\nlocation..."
+          "You have collected a\nDhilly piece!"
         ],
         "__section": "text",
         "avatarId": "",
@@ -42,6 +41,114 @@
         "actorId": "90ea9a2d-138e-4402-ae70-a7a61997b63c"
       },
       "id": "8744dcf5-f4bc-45d2-9923-9267b7c9f68b"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 4
+      },
+      "id": "90cdce02-f4af-4415-b715-37d8ee00f6aa"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 116
+        },
+        "y": {
+          "type": "number",
+          "value": 79
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "7d2ff17b-219f-4b05-a42b-ac4afac155d1"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.4,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 15
+        }
+      },
+      "id": "9aa558b9-48c5-4a2a-93c3-afbe80bd281a"
+    },
+    {
+      "command": "EVENT_ACTOR_SHOW",
+      "args": {
+        "actorId": "bd82413a-c4d7-45c1-af9d-267c4e82d97e"
+      },
+      "id": "7d0196fa-66cd-4f5a-a73f-5527039cf5b8"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 116
+        },
+        "y": {
+          "type": "number",
+          "value": 63
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "907aac9d-4f77-43e7-8254-af0a4d511384"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1
+      },
+      "id": "6e07f797-09b6-4956-8bad-db1a31bff219"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "e7d5e04c-d524-4b8a-afab-7042d1e991bf"
+      },
+      "id": "8c9551db-da99-48c9-80ae-e1562a62c6e5"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 1,
+        "frames": 30,
+        "__scriptTabs": "end"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "bd82413a-c4d7-45c1-af9d-267c4e82d97e"
+            },
+            "id": "74520305-5222-4ef7-bd22-69c9af5b3599"
+          }
+        ]
+      },
+      "id": "c3877881-d45f-4767-8813-1fa3a3e8cca7"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "1",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "d4ca04e8-b1b3-4567-8b4a-2025b333155e"
     }
   ],
   "leaveScript": [],

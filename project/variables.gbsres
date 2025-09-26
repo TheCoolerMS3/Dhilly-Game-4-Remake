@@ -1,4 +1,15 @@
 {
   "_resourceType": "variables",
-  "variables": []
+  "variables": [
+    {
+      "id": "0",
+      "name": "climbing",
+      "symbol": "var_climbing"
+    },
+    {
+      "id": "1",
+      "name": "piece",
+      "symbol": "var_piece"
+    }
+  ]
 }

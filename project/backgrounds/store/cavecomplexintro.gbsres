@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "4e0ddabc-aa3f-4c4b-be49-f02f594bc8e4",
+  "name": "store/cavecomplexintro",
+  "symbol": "bg_store_cavecomplexintro",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "store/cavecomplexintro.png",
+  "tileColors": "005b+017+00d+017+00d+017+00d+017+00d+017+00d+017+004+0510+004+0510+007a+"
+}

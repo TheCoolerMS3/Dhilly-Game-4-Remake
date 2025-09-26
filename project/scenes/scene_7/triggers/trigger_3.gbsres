@@ -1,0 +1,82 @@
+{
+  "_resourceType": "trigger",
+  "id": "995bdce2-db58-4a5f-aa3d-6d37c24d827b",
+  "name": "",
+  "prefabId": "",
+  "x": 20,
+  "y": 43,
+  "symbol": "trigger_2",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "0"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "left"
+              ],
+              "override": true,
+              "__scriptTabs": "press"
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_SET_POSITION",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 18
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 44
+                    }
+                  },
+                  "id": "5835a24a-6db1-4968-bcb6-d334a0ba98d2"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "0",
+                    "value": {
+                      "type": "false"
+                    }
+                  },
+                  "id": "fa5cc929-c216-4d06-90be-14a7d025b204"
+                }
+              ]
+            },
+            "id": "72c815c5-14c5-4a9f-8849-4085efd09c0a"
+          }
+        ],
+        "false": []
+      },
+      "id": "f6c7fe8d-77b8-4fa1-a386-45ed55cab22e"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "left"
+        ]
+      },
+      "id": "424c42d1-0f7c-43f2-a201-ef77ff843c53"
+    }
+  ],
+  "_index": 2
+}

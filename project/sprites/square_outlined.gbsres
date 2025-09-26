@@ -1,10 +1,10 @@
 {
   "_resourceType": "sprite",
   "id": "5e35b030-91bc-4469-b1ea-96c5c951c45f",
-  "name": "square_full_hitbox_outlined",
+  "name": "square_outlined",
   "symbol": "sprite_square_full_hitbox_c",
   "numFrames": 1,
-  "filename": "square_full_hitbox_outlined.png",
+  "filename": "square_outlined.png",
   "checksum": "59bc2917b2b181a959f4af6e066818820e778149",
   "width": 16,
   "height": 16,
