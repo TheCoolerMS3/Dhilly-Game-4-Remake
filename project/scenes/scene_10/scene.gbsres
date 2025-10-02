@@ -1,0 +1,341 @@
+{
+  "_resourceType": "scene",
+  "id": "50b93fdd-1324-483d-98d9-8ea2038f3c6c",
+  "_index": 9,
+  "name": "Scene 10",
+  "backgroundId": "76e3fa5a-4154-4ee5-9754-c48cdfc0b21f",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "PLATFORM",
+  "paletteIds": [
+    "f3be2b49-993f-46d0-b805-13cec179b868"
+  ],
+  "spritePaletteIds": [
+    "8705d0af-3c75-43ac-a138-2bd790b43b06",
+    "ee45785d-270a-4f6b-81f0-03a54d0111a0"
+  ],
+  "collisions": "00c+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f!0013+0f6+00e+0f6+00e+0f6+00e+0f7+00d+0f7+00d+0f7+00d+0f6+00e+0f6+00e+0f7+00!0f14+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_10",
+  "x": 2440,
+  "y": 376,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "0fa5dfff-6c12-4b81-addc-ad3cc17a3ae3"
+      },
+      "id": "2bb1fde7-0f8b-4e4c-8412-21aa2031fbb5"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "* hey kid.",
+          "* want this dhilly piece?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "503bbbc7-e68f-4cd7-86a6-830ab96ddd56"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "L0",
+        "trueText": "Yes",
+        "falseText": "No"
+      },
+      "id": "9adc3a50-a9b3-43ea-9ed5-0e191b982fc3"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "crash",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "ad2c41f7-e460-4140-adaa-a107e88a25be"
+    },
+    {
+      "command": "EVENT_OVERLAY_SHOW",
+      "args": {
+        "color": "black",
+        "x": 0,
+        "y": 0
+      },
+      "id": "964c4cf1-e9bb-4378-851b-d9a1cc377f2a"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.3,
+        "frames": 30
+      },
+      "id": "1ab3e7c9-f587-4ebe-b916-073849861883"
+    },
+    {
+      "command": "EVENT_OVERLAY_HIDE",
+      "args": {},
+      "id": "a0adfe37-2de3-4168-9429-a44a579ada17"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "crash",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "34120ec4-ab90-4421-8e8d-c18a212eee5f"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "L0"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "* well you better get\nready for a bad time."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "b6758633-d3d4-465c-a135-36ce019d090d"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "* so... you wouldn't\nmind if i gave you a\nbad time."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "82c17fae-c56d-4699-8a62-c4103c485024"
+          }
+        ]
+      },
+      "id": "07946b6f-a833-4054-8360-4e1da3aee484"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30
+      },
+      "id": "0818a643-fc59-4030-8875-d11d16b81cb4"
+    },
+    {
+      "command": "EVENT_ACTOR_SHOW",
+      "args": {
+        "actorId": "0fa5dfff-6c12-4b81-addc-ad3cc17a3ae3"
+      },
+      "id": "473635c3-77da-4822-9091-ed2c77a4f974"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 1,
+        "frames": 30,
+        "__scriptTabs": "end"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_TIMER_DISABLE",
+            "args": {
+              "timer": 1
+            },
+            "id": "d4d0e21e-9733-41b0-b264-a07853381a6d"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "0fa5dfff-6c12-4b81-addc-ad3cc17a3ae3",
+              "frame": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "617e2015-64ce-4669-82d9-ac838f22b051"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "2",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "80235311-0a4c-4ab9-bca7-c58d7a9874c6"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "beep",
+              "priority": "medium",
+              "pitch": 2,
+              "frequency": 200,
+              "duration": 0.6,
+              "wait": true,
+              "effect": 0,
+              "__collapse": false
+            },
+            "id": "0e5566da-6c6d-4ef2-8bc5-4be91d99cefd"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "2",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "f170131a-f522-4fc2-b349-a0639b7e1ad4"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "0fa5dfff-6c12-4b81-addc-ad3cc17a3ae3"
+            },
+            "id": "f19e602c-229c-4af0-8301-4c9e20d141a5"
+          }
+        ]
+      },
+      "id": "3d5b478a-3f58-4ecb-8105-0488fbd9d989"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 2,
+        "duration": 0.5,
+        "frames": 30,
+        "__scriptTabs": "end"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_ACTOR_SHOW",
+            "args": {
+              "actorId": "7be6d44c-7c0f-4c5f-8ebb-6d44e2b2c887"
+            },
+            "id": "e7d7edd6-fc50-4684-8c3c-5881f8fe5a45"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "7be6d44c-7c0f-4c5f-8ebb-6d44e2b2c887",
+              "x": {
+                "type": "rnd",
+                "value": {
+                  "type": "number",
+                  "value": 10
+                }
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "b8ac0974-e1c9-4cce-b143-7144d5b1165d"
+          },
+          {
+            "command": "EVENT_LAUNCH_PROJECTILE",
+            "args": {
+              "__section": "projectile",
+              "spriteSheetId": "8a790338-4bbc-4fd2-97db-515284bf5ae9",
+              "spriteStateId": "",
+              "actorId": "7be6d44c-7c0f-4c5f-8ebb-6d44e2b2c887",
+              "x": 0,
+              "y": 0,
+              "directionType": "direction",
+              "otherActorId": "$self$",
+              "direction": "down",
+              "angle": 0,
+              "angleVariable": "L0",
+              "targetActorId": "$self$",
+              "initialOffset": 0,
+              "speed": 2,
+              "animSpeed": 15,
+              "lifeTime": 1,
+              "loopAnim": true,
+              "destroyOnHit": true,
+              "collisionGroup": "3",
+              "collisionMask": [
+                "1"
+              ]
+            },
+            "id": "1ba4c98e-be52-4995-99aa-421dec66aa22"
+          }
+        ]
+      },
+      "id": "ccf7e4f7-1abd-4427-a23a-296a84951189"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "5e35b030-91bc-4469-b1ea-96c5c951c45f"
+}

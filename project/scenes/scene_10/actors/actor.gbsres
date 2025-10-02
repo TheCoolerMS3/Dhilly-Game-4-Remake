@@ -1,0 +1,81 @@
+{
+  "_resourceType": "actor",
+  "id": "0fa5dfff-6c12-4b81-addc-ad3cc17a3ae3",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "9461e7cc-f1b3-4068-9e65-9358c209f8d8",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_6",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "2"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "50b93fdd-1324-483d-98d9-8ea2038f3c6c",
+              "x": {
+                "type": "number",
+                "value": 1
+              },
+              "y": {
+                "type": "number",
+                "value": 16
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "5174760c-c12f-491c-a104-81d365ac17ac"
+          }
+        ],
+        "false": []
+      },
+      "id": "2f968863-41b7-42d9-961c-5b76ecc07222"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 255
+      },
+      "id": "7f66fc25-e240-4f25-be4b-9712208b81bd"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "$self$",
+        "frame": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "e7b67ac9-81a4-4bbd-ab4c-4a3ac460ad28"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 1,
+  "y": 16,
+  "_index": 0
+}

@@ -10,6 +10,16 @@
       "id": "1",
       "name": "piece",
       "symbol": "var_piece"
+    },
+    {
+      "id": "2",
+      "name": "blaster",
+      "symbol": "var_blaster"
+    },
+    {
+      "id": "3",
+      "name": "timer thing",
+      "symbol": "var_timer_thing"
     }
   ]
 }
