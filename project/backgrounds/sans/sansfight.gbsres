@@ -1,12 +1,13 @@
 {
   "_resourceType": "background",
   "id": "76e3fa5a-4154-4ee5-9754-c48cdfc0b21f",
-  "name": "sans/sansspeak",
+  "name": "sans/sansfight",
   "symbol": "bg_sans_sansintro_copy",
   "width": 20,
   "height": 18,
   "imageWidth": 160,
   "imageHeight": 144,
-  "filename": "sans/sansspeak.png",
-  "tileColors": ""
+  "filename": "sans/sansfight.png",
+  "tileColors": "",
+  "autoColor": false
 }

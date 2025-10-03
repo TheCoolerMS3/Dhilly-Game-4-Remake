@@ -7,7 +7,7 @@
   "tilesetId": "",
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "type": "LOGO",
   "paletteIds": [
     "f3be2b49-993f-46d0-b805-13cec179b868",
     "79a6a9c5-7e62-4652-a370-260cf307da3c"
@@ -18,7 +18,72 @@
   "symbol": "scene_9",
   "x": 2256,
   "y": 360,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "50b93fdd-1324-483d-98d9-8ea2038f3c6c",
+              "x": {
+                "type": "number",
+                "value": 1
+              },
+              "y": {
+                "type": "number",
+                "value": 16
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "5378f53e-0490-43d0-944e-d05a0ad1a733"
+          }
+        ]
+      },
+      "id": "340f9b04-c675-4b1d-9c98-4660c21066bd"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 3,
+        "frames": 30,
+        "__scriptTabs": "end"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "50b93fdd-1324-483d-98d9-8ea2038f3c6c",
+              "x": {
+                "type": "number",
+                "value": 1
+              },
+              "y": {
+                "type": "number",
+                "value": 16
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "744ac81d-0269-49cc-8172-a21d2d00722c"
+          }
+        ]
+      },
+      "id": "8e00608e-eb23-4737-a7cb-51ffba99c25a"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []

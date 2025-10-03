@@ -1,0 +1,67 @@
+{
+  "_resourceType": "trigger",
+  "id": "f485ec76-5096-460a-a830-56732eab6a4a",
+  "name": "",
+  "prefabId": "",
+  "x": 13,
+  "y": 16,
+  "symbol": "trigger_12",
+  "prefabScriptOverrides": {},
+  "width": 6,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "* hehehehe",
+                "* i'm sans undertale"
+              ],
+              "__section": "layout",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "d10b12b9-22eb-4ed0-840b-64c433d29285"
+          }
+        ]
+      },
+      "id": "6eba12fb-990f-44bd-9e6e-f140479d30cf"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "6a235499-fa6e-472a-a332-0e272b32d357"
+    }
+  ],
+  "_index": 1
+}

@@ -15,16 +15,16 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_7",
-  "script": [
+  "script": [],
+  "startScript": [
     {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
-        "actorId": "7be6d44c-7c0f-4c5f-8ebb-6d44e2b2c887"
+        "actorId": "$self$"
       },
-      "id": "534ec39e-2cd7-4879-9c85-280e6e4aac6d"
+      "id": "ae36b3fc-d60c-4f2b-a7a5-607e45969bd4"
     }
   ],
-  "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
