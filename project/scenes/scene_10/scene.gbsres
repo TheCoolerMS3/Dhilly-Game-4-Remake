@@ -29,6 +29,16 @@
   "y": 368,
   "script": [
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "2",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "62158d57-9c72-427f-a53a-5f90d4ab9c21"
+    },
+    {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
         "actorId": "0fa5dfff-6c12-4b81-addc-ad3cc17a3ae3"
@@ -60,15 +70,6 @@
         "closeDelayFrames": 30
       },
       "id": "503bbbc7-e68f-4cd7-86a6-830ab96ddd56"
-    },
-    {
-      "command": "EVENT_CHOICE",
-      "args": {
-        "variable": "L0",
-        "trueText": "Yes",
-        "falseText": "No"
-      },
-      "id": "9adc3a50-a9b3-43ea-9ed5-0e191b982fc3"
     },
     {
       "command": "EVENT_SOUND_PLAY_EFFECT",
@@ -119,71 +120,29 @@
       "id": "34120ec4-ab90-4421-8e8d-c18a212eee5f"
     },
     {
-      "command": "EVENT_IF",
+      "command": "EVENT_TEXT",
       "args": {
-        "condition": {
-          "type": "variable",
-          "value": "L0"
-        },
-        "__collapseElse": false
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "* well you better get\nready for a bad time."
-              ],
-              "__section": "layout",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "top",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "b6758633-d3d4-465c-a135-36ce019d090d"
-          }
+        "text": [
+          "* well you better get\nready for a bad time."
         ],
-        "false": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "* so... you wouldn't\nmind if i gave you a\nbad time."
-              ],
-              "__section": "layout",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "top",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "82c17fae-c56d-4699-8a62-c4103c485024"
-          }
-        ]
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
       },
-      "id": "07946b6f-a833-4054-8360-4e1da3aee484"
+      "id": "b6758633-d3d4-465c-a135-36ce019d090d"
     },
     {
       "command": "EVENT_WAIT",

@@ -14,7 +14,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "You have collected a\nDhilly piece!"
+          "You have collected a\nDhilly piece!",
+          "It appears this one\nwill shoot you into the\nair... woah!"
         ],
         "__section": "text",
         "avatarId": "",

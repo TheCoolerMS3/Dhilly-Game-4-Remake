@@ -25,7 +25,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "DEBUG: Area complete"
+                "Area completed!"
               ],
               "__section": "text",
               "avatarId": "",
