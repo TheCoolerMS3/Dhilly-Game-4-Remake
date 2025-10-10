@@ -150,6 +150,13 @@
         }
       },
       "id": "d4ca04e8-b1b3-4567-8b4a-2025b333155e"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "90ea9a2d-138e-4402-ae70-a7a61997b63c"
+      },
+      "id": "f7681175-5b8a-462a-a708-189859de58c0"
     }
   ],
   "leaveScript": [],
