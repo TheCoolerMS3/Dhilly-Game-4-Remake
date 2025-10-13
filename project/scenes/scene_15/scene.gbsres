@@ -19,7 +19,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_15",
   "x": 3952,
-  "y": 368,
+  "y": 360,
   "script": [
     {
       "command": "EVENT_TEXT",

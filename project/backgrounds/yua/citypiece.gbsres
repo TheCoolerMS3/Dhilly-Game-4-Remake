@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 144,
   "filename": "yua/citypiece.png",
-  "tileColors": "00118+0550+"
+  "tileColors": "00118+0550+",
+  "autoColor": false
 }

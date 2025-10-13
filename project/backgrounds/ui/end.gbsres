@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "db6d93ef-2e36-48ae-b83d-72b65e02c1c3",
+  "name": "ui/end",
+  "symbol": "bg_ui_end",
+  "width": 20,
+  "height": 45,
+  "imageWidth": 160,
+  "imageHeight": 360,
+  "filename": "ui/end.png",
+  "tileColors": "0164+00287+042+0012+042+0020+023+033+043+03!00a+023+033+043+03!00a+023+033+043+03!0031+"
+}
