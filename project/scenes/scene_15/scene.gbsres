@@ -1,0 +1,159 @@
+{
+  "_resourceType": "scene",
+  "id": "852acb08-4a61-40cb-9b06-e1d5613e106e",
+  "_index": 12,
+  "name": "Scene 15",
+  "backgroundId": "3201727e-ff63-4dab-890a-0a230549d8a8",
+  "tilesetId": "",
+  "width": 29,
+  "height": 18,
+  "type": "PLATFORM",
+  "paletteIds": [
+    "afe843b1-d79b-47a1-b809-0fba3ad010c0"
+  ],
+  "spritePaletteIds": [
+    "8705d0af-3c75-43ac-a138-2bd790b43b06",
+    "4eaf180c-6a1b-4087-a293-c2aa3971f5ca"
+  ],
+  "collisions": "00196+0fe+00f+0fe+001b+0f2+001b+0f2+00f+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_15",
+  "x": 3872,
+  "y": 272,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Square.",
+          "This tedious life of\ndoing good is so\nboring..",
+          "It's not who I am.",
+          "I am not your friend.",
+          "I am the one who\nwants to be free.",
+          "So, I'll leave this\nuniverse behind,\nand if it collapses,\nso be it.",
+          "Good riddance."
+        ],
+        "__section": "text",
+        "avatarId": "f82d04a9-1aeb-447f-827a-59c7755bf1c8",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "c4937b63-0af9-400c-9ccb-d0f4338ea316"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "d08665ca-c681-4768-bec0-f5a5e60a3b08",
+        "x": {
+          "type": "number",
+          "value": 11
+        },
+        "y": {
+          "type": "number",
+          "value": 8
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "90219caf-3298-454c-867d-b5ba0c337d5d"
+    },
+    {
+      "command": "EVENT_LOOP_FOR",
+      "args": {
+        "variable": "L0",
+        "from": {
+          "type": "number",
+          "value": 0
+        },
+        "comparison": "<=",
+        "to": {
+          "type": "number",
+          "value": 6
+        },
+        "operation": "+=",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.5,
+              "frames": 2,
+              "units": "frames"
+            },
+            "id": "4ffa7fbe-61c5-4bfc-a252-38964332e3de"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "d08665ca-c681-4768-bec0-f5a5e60a3b08",
+              "x": {
+                "type": "number",
+                "value": 90
+              },
+              "y": {
+                "type": "number",
+                "value": 64
+              },
+              "units": "pixels"
+            },
+            "id": "4dab2100-94aa-4862-a649-24e291b1201f"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.5,
+              "frames": 2,
+              "units": "frames"
+            },
+            "id": "66f66b2e-1452-49c3-97dc-4a34bf04c177"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "d08665ca-c681-4768-bec0-f5a5e60a3b08",
+              "x": {
+                "type": "number",
+                "value": 85
+              },
+              "y": {
+                "type": "number",
+                "value": 64
+              },
+              "units": "pixels"
+            },
+            "id": "16ebe217-0c64-4bbe-aca3-e752df92c925"
+          }
+        ]
+      },
+      "id": "831b0b5d-aadd-4ac8-b9e7-69806e92e9b3"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "d08665ca-c681-4768-bec0-f5a5e60a3b08"
+      },
+      "id": "88ac5197-f246-4731-92cf-629eb49ba4f4"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "5e35b030-91bc-4469-b1ea-96c5c951c45f"
+}

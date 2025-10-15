@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "40255bfb-8629-4bb1-bd12-f61d9aa704b1",
-  "_index": 5,
+  "_index": 4,
   "name": "Scene 6",
   "backgroundId": "d9793fc9-11cf-4b96-90aa-38e385df0cda",
   "tilesetId": "",
@@ -15,7 +15,7 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_6",
-  "x": 1016,
+  "x": 824,
   "y": 208,
   "script": [
     {

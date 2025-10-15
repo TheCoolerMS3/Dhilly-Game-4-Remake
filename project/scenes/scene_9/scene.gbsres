@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "bdfe3ed0-0de0-4734-82b6-280b4a9906ac",
-  "_index": 8,
+  "_index": 6,
   "name": "Scene 9",
   "backgroundId": "4775343b-49d2-45ba-bfcf-69a19c4fea99",
   "tilesetId": "",
@@ -16,9 +16,37 @@
   "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_9",
-  "x": 2256,
-  "y": 360,
+  "x": 2208,
+  "y": 96,
   "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "L0"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [],
+        "false": []
+      },
+      "id": "e23684c5-a0d4-4f15-b10a-7a9cf323e4c2"
+    },
+    {
+      "command": "EVENT_SAVE_DATA",
+      "args": {
+        "saveSlot": 0,
+        "__scriptTabs": "save",
+        "__collapse": false
+      },
+      "children": {
+        "true": [],
+        "load": []
+      },
+      "id": "ac8b8852-6561-4aee-bfcd-0e287b7264a7"
+    },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {

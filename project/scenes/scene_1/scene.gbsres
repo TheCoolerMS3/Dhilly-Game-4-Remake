@@ -22,6 +22,13 @@
   "autoFadeSpeed": 1,
   "script": [
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "667c863e-296e-4b2c-9c83-ce8a9fa373c0"
+      },
+      "id": "e0589518-24b8-462d-98de-44cda2013c90"
+    },
+    {
       "command": "EVENT_AWAIT_INPUT",
       "args": {
         "input": [
@@ -40,7 +47,7 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "a609a4e4-b7fe-4778-bd6a-b208eaec879f",
+        "sceneId": "40255bfb-8629-4bb1-bd12-f61d9aa704b1",
         "x": {
           "type": "number",
           "value": 0

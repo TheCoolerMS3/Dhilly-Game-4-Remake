@@ -1,0 +1,187 @@
+{
+  "_resourceType": "scene",
+  "id": "65054396-4df4-4b18-9a47-bab660cb6e11",
+  "_index": 10,
+  "type": "PLATFORM",
+  "name": "Scene 13",
+  "symbol": "scene_13",
+  "x": 2896,
+  "y": 272,
+  "width": 100,
+  "height": 18,
+  "backgroundId": "dad7eab9-279b-4d0e-b598-914cdf7c837d",
+  "tilesetId": "",
+  "paletteIds": [
+    "cb59c002-56dd-4c54-b59f-c48a27e1c57a",
+    "79a6a9c5-7e62-4652-a370-260cf307da3c",
+    "4eaf180c-6a1b-4087-a293-c2aa3971f5ca"
+  ],
+  "spritePaletteIds": [
+    "bb903e39-764a-496c-b883-b1e4d8fde59d",
+    "bb903e39-764a-496c-b883-b1e4d8fde59d",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "f6059c6e-1993-432c-9404-210be724eac5"
+  ],
+  "autoFadeSpeed": 1,
+  "parallax": [
+    {
+      "height": 14,
+      "speed": 1
+    },
+    {
+      "height": 0,
+      "speed": 0
+    }
+  ],
+  "playerSpriteSheetId": "3007a423-2cc9-4db5-97e3-ab2075135de8",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "viberz...",
+          "the... vibez.",
+          "ARE GONEZZ T-T",
+          "even.... dhilly left",
+          "ITz YOUR FAULT!!!"
+        ],
+        "__section": "text",
+        "avatarId": "b434c8a1-641e-43de-b73d-21047994ebfb",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "87b025cb-6bff-4aca-b6b6-0ead4a520a2e"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "L0",
+        "trueText": "Who are you?",
+        "falseText": "What"
+      },
+      "id": "41141bec-b6b1-4326-b83b-1d4a35cea6b9"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 5
+        }
+      },
+      "id": "b71546ff-5907-4d18-b428-65582f1fb598"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "THAT DOEZNT\nMATTER T-T",
+          "i'll kill you ^o^",
+          "if you hit the things\ni throw YOULL DIE"
+        ],
+        "__section": "text",
+        "avatarId": "b434c8a1-641e-43de-b73d-21047994ebfb",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "7161ac5f-6a16-40ab-a2b4-34118747f8e3"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 0.1,
+        "frames": 1,
+        "__scriptTabs": "end",
+        "units": "frames"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_LAUNCH_PROJECTILE",
+            "args": {
+              "__section": "projectile",
+              "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+              "spriteStateId": "",
+              "actorId": "player",
+              "x": -16,
+              "y": -16,
+              "directionType": "direction",
+              "otherActorId": "$self$",
+              "direction": "up",
+              "angle": 0,
+              "angleVariable": "L0",
+              "targetActorId": "$self$",
+              "initialOffset": 0,
+              "speed": 2,
+              "animSpeed": 15,
+              "lifeTime": 0.3,
+              "loopAnim": true,
+              "destroyOnHit": true,
+              "collisionGroup": "1",
+              "collisionMask": [
+                "1",
+                "player"
+              ]
+            },
+            "id": "32b9af63-917b-41b2-8e09-fc89364bd142"
+          }
+        ]
+      },
+      "id": "57eed7a6-390a-4407-802e-b722f6e9c23c"
+    }
+  ],
+  "playerHit1Script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "65054396-4df4-4b18-9a47-bab660cb6e11",
+        "x": {
+          "type": "number",
+          "value": 8
+        },
+        "y": {
+          "type": "number",
+          "value": 13
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "b527c529-7f8b-4255-aa69-16eb6029c005"
+    }
+  ],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00578+0f1e+004+0f7+003+0f4+004+0f2+003+0f8+008+0f6+003+0f6+004+0f8+0012c+"
+}
