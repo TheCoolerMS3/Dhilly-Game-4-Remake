@@ -22,13 +22,6 @@
   "autoFadeSpeed": 1,
   "script": [
     {
-      "command": "EVENT_MUSIC_PLAY",
-      "args": {
-        "musicId": "667c863e-296e-4b2c-9c83-ce8a9fa373c0"
-      },
-      "id": "e0589518-24b8-462d-98de-44cda2013c90"
-    },
-    {
       "command": "EVENT_AWAIT_INPUT",
       "args": {
         "input": [
