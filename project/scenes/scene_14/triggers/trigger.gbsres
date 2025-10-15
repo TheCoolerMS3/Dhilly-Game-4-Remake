@@ -1,14 +1,14 @@
 {
   "_resourceType": "trigger",
-  "id": "173cd212-fcd9-4cca-bcd1-02b154226d8a",
+  "id": "54273905-aaef-4719-87b6-084da949ad2f",
   "name": "",
   "prefabId": "",
   "x": 19,
-  "y": 0,
-  "symbol": "trigger_10",
+  "y": 1,
+  "symbol": "trigger_22",
   "prefabScriptOverrides": {},
   "width": 1,
-  "height": 17,
+  "height": 13,
   "script": [
     {
       "command": "EVENT_IF",
@@ -25,7 +25,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Area completed!"
+                "Area completed!",
+                "You feel Dhilly attempt\nto contact you..."
               ],
               "__section": "text",
               "avatarId": "",
@@ -44,15 +45,15 @@
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
-            "id": "e749babd-5b2e-4814-bd3d-96132ae56002"
+            "id": "3bb37449-8f92-4b88-888a-ca656912d7bc"
           },
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "9d9e54af-ec2e-4864-a7c5-aa271f1248e1",
+              "sceneId": "852acb08-4a61-40cb-9b06-e1d5613e106e",
               "x": {
                 "type": "number",
-                "value": 8
+                "value": 1
               },
               "y": {
                 "type": "number",
@@ -61,12 +62,12 @@
               "direction": "",
               "fadeSpeed": "2"
             },
-            "id": "108be847-f635-489d-93ad-3f6d6df9d787"
+            "id": "bdaa23f7-73bd-4901-8a97-50c04ee1782b"
           }
         ],
         "false": []
       },
-      "id": "82babc6c-7543-41e4-9c0a-1522399d47a6"
+      "id": "9440d150-f7fd-47e4-a232-8b0efac6a51e"
     }
   ],
   "leaveScript": [],

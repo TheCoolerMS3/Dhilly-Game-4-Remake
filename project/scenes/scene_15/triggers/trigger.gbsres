@@ -1,0 +1,75 @@
+{
+  "_resourceType": "trigger",
+  "id": "0df225ff-7ef6-4942-8346-ce8a24e38858",
+  "name": "",
+  "prefabId": "",
+  "x": 13,
+  "y": 0,
+  "symbol": "trigger_23",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 14,
+  "script": [
+    {
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "speed": 0.25
+      },
+      "id": "6d458fe7-f0bb-4d59-823c-5976eb59f1d3"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Dhilly Game 4 Remake",
+          "By Eve",
+          "To be continued in\nDhilly Game 5"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "20b34dfb-d9b9-4a30-a6c8-d853a95d2a75"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "bb3416ae-ff9b-469d-a2c1-29228191531c",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "53c088c4-49aa-4375-9e86-b61336eeeeba"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "73e4d385-7dfb-4a67-8f10-d357cb08e056",
+  "name": "yua/cityintro",
+  "symbol": "bg_yua_cityintro",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "yua/cityintro.png",
+  "tileColors": "0040+012+0010+016+00!012+027+004+016+00!012+027+004+016+003+027+004+016+003+027+004+016+003+027+004+016+003+027+004+0510+004+0510+007a+",
+  "autoColor": false
+}
